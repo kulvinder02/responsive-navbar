@@ -113,7 +113,7 @@ nav {
         width: 100%;
         pointer-events: none;
         background-color: black;
-        transition: all 0.3s ease-in-out linear;
+        transition: all 600ms  ease-in-out;
     }
 
     input[type="checkbox"]:checked+ul.md_screen {
