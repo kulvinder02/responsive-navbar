@@ -6,6 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    border: red solid 1px;
 }
 
 .nav {
@@ -258,7 +259,6 @@
     text-align: center;
     color: rgba(43, 53, 62, 0.7);
     max-width: 566px;
-    height: 145px;
     margin-bottom: 86px;
 }
 
@@ -451,7 +451,7 @@
     font-size: 16px;
     line-height: 161.7%;
     color: #2B353E;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 
 }
 
@@ -461,7 +461,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 161.7%;
     color: #2B353E;
 }
@@ -487,6 +487,9 @@
 }
 .w-100{
     width: 100%;
+}
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
 
@@ -572,7 +575,7 @@
     }
     .page3_head {
 
-        font-size: 50px;
+        font-size: 48px;
         line-height: 128.4%;
         color: #2B353E;
         max-width: 469px;
@@ -640,7 +643,7 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 300;
-        font-size: 12px;
+        font-size: 13px;
         line-height: 161.7%;
         color: #2B353E;
     }
@@ -650,11 +653,10 @@
         height: 29px;
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 700;
-        font-size: 12px;
+        font-weight: 400;
+        font-size: 16px;
         line-height: 161.7%;
         color: #2B353E;
-        margin-bottom: 20px;
     }
 
 }
@@ -730,9 +732,6 @@
     .wh_100 {
         width: 100%;
     }
-
-
-
     .button {
         cursor: pointer;
         background-color: #FFF;
@@ -828,11 +827,7 @@
         font-size: 18px;
         line-height: 161.7%;
         color: #2B353E;
-        margin-bottom: 20px;
-    }
-
-    .chat_100 {
-        width: 50%;
+        margin-bottom: 5px;
     }
 
     .pd-bttm {
@@ -852,9 +847,52 @@
     .page2_para {
         margin-bottom: 28px;
     }
+    .margin-lft-md{
+        margin-left: 70px;
+    }
+    .mrgn-bttm{
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width:576px) {
+    .col8{
+        width: 100%;
+    }
+    /* .space-btween{
+        display: flex;
+        justify-content: space-between;
+    } */
+    .col2-50{
+        width: 50%;
+    }
+    
+    /* .mrgn-lft-md-sm{
+        margin-left: 80px;
+    } */
+    .col-md-6{
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .footer_para{
+        font-size: 12px;
+        height: 26px;
+    }
+    .width{
+        width: 106px;
+    }   
+    
+    .col-6{
+        width: 50%;
+    }
+    .margin-lft-md{
+        margin: unset;
+    }
+    .chat_100{
+        width: 100%;
+    }
+
     .font-sm {
         margin-top: unset;
     }
@@ -883,10 +921,6 @@
         height: 100px;
         margin-top: 16px;
         margin-bottom: -52px;
-    }
-
-    .page2_para {
-        height: 76px;
     }
 
     .boys_pic_sm {
@@ -953,28 +987,27 @@
     .hero_heading {
         max-width: unset;
     }
-
-    .tags-wdth {
-        width: 100%;
-    }
-
     .star_para {
         margin-bottom: 50px;
     }
     .margn_bttm {
         margin-bottom: 6px;
     }
+    .space-btween {
+        justify-content: space-between;
+    }
 
     .tags_head-lg {
+        margin-top: -10px;
         width: 100px;
         height: 6px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 161.7%;
         color: #2B353E;
-        margin-bottom: 20px;
+        margin-bottom:25px;
     }
 
     .footer_links-lg {
@@ -982,17 +1015,20 @@
     }
 
     .mrgn-top-last {
-        margin-top: 31px;
+        margin-top: 50px;
     }
 }
 
 @media (max-width:320px) {
+    .footer_links-lg {
+        font-size: 10px;
+    }
     .mrgn-top {
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .tags_head-lg {
         margin-bottom: 20px;
-        margin-top: 20px;
+        margin-top: -20px;
         font-weight: 500;
     }
 
@@ -1003,7 +1039,7 @@
     }
 
     .col2 {
-        width: 100%;
+        width: 50%;
     }
 
     .font-sm {
@@ -1138,6 +1174,9 @@
         margin-top: 0px;
     }
 
+    .tag-head-sm{
+        margin-left: 20px;
+    }
     .mrgn-top-last {
         margin-top: 31px;
     }
